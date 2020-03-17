@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <title>Book keeper</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1 id="title">Add your book here</h1>
+      <form class="form">
+        <input type="text" name="Book name" value="" id="name" placeholder="Book name">
+        <br>
+        <input type="text" name="Author name" value="" id="author" placeholder="Author's name">
+        <br>
+        <input type="text" name="ISBN" id="isbn" placeholder="ISBN">
+        <br>
+        <button  id="submit">Submit</button>
+        <br>
+        <h2>
+        Book List</h2>
+
+        <table>
+            <thead>
+              <tr>
+                <td>Book name</td>
+                <td>Author's name</td>
+                <td>ISBN</td>
+
+              </tr>
+            </thead>
+            <tbody id="content">
+
+            </tbody>
+        </table>
+
+      </form>
+    </div>
+    <!-- built files will be auto injected -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
